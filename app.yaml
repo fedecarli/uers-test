@@ -3,11 +3,11 @@ env: flex
 
 env_variables:
   # --REQUIRED--
-  DATABASE_URI: mongodb://localhost:27017/dev
-  APP_ID: <your-app-id>
-  MASTER_KEY: <your-master-key>
-  SERVER_URL: https://your-project-id.appspot.com/parse
+  DATABASE_URI: mongodb://admin:pass@ds157639.mlab.com:57639/heroku_fggv6w17
+  APP_ID: myAppId
+  MASTER_KEY: myMasterKey
+  SERVER_URL: http://uers-test.herokuapp.com/parse
   # --OPTIONAL--
   # FILE_KEY: <your-file-key>
-  # PARSE_MOUNT: /parse
+  PARSE_MOUNT: /parse
   # CLOUD_CODE_MAIN:  
